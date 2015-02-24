@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <Button
+            android:id="@+id/btn_home_left2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_back_presschange"
+            android:text="返回"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_rihgt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_right_presschange"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="环保信息"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" 
+                    
+                    >
+
+                    <Button
+                        android:id="@+id/b1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="脱硫信息"
+                        android:textSize="20sp" />
+
+                   <Button
+                       android:id="@+id/b2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="脱硝信息"
+                        android:textSize="20sp" />
+
+                  <Button
+                      android:id="@+id/b3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="煤耗信息"
+                        android:textSize="20sp" />
+                   <Button
+                       android:id="@+id/b4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="节能减排"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

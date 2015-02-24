@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/umeng_xp_titleContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="5.0dip"
+    android:layout_marginTop="3.0dip"
+    android:layout_toRightOf="@id/umeng_xp_appIcon0" >
+
+    <TextView
+        android:id="@+id/umeng_xp_name0"
+        android:layout_width="120.0dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="新闻标题"
+        android:textColor="#ff000000"
+        android:textSize="16.0dip" />
+
+    <TextView
+        android:id="@+id/umeng_xp_size0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_toRightOf="@+id/umeng_xp_name0"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:text="  "
+        android:textColor="#ff777777"
+        android:textSize="12.0dip" />
+
+    <TextView
+        android:id="@+id/umeng_xp_content0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30.0dip"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="2013-8-14"
+        android:textColor="#ff777777"
+        android:textSize="12.0sp" />
+
+</RelativeLayout>

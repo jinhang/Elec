@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <Button
+            android:id="@+id/btn_back_pri_only"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_back_presschange"
+            android:text="返回"
+            android:textColor="@android:color/white"
+             />
+
+        <TextView
+            android:id="@+id/vip_every_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="合同详细信息"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_pri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:divider="@color/light_gray"
+        >
+        
+        
+    </ExpandableListView>
+
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dome.viewer"
+    android:versionCode="1"
+    android:versionName="1.6" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.dome.viewer.AppStart"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dome.readpdf.PdfViewerActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="application/pdf" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Whatsnew"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.TabHostActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.OneActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.ChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.ThreeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.FourActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.FiveActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.achartengine.GraphicalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.chartac.ChartLineActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.chartac.ChartPieActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.SystemInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.Home_DealActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.SystemInfoType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.viewer.HomeTableRow4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dome.chartac.ChartCubicActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.readpdf.BookActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.SysInfoTabsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.LookInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.dome.update.DataReceiver" >
+            <intent-filter>
+                <action android:name="com.dome.update.DataReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.dome.viewer.PubQueryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_PrivateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_JXJH_Contract_Choose"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_JXJH_Contract_Show"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.One_welcome_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Chart"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.HomeTableRowHuanbao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Genutilizehour"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_pub_two"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_RepairePlan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_private_only"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.PubDrawActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.One_Share"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_jiesuan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Share"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Two_Share"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.DealInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Home_RulesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.RuleInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Participant_Introduce"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Share_Choose"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Shanxi_Share"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.IdeaBack"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.HuanbaoLookInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.GuanYu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.Vip_Different_Description"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dome.viewer.DifDescriptionShow"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

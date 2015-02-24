@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:background="@drawable/home_item_presschange"
+        android:paddingBottom="16.0dip"
+        android:paddingTop="16.0dip" >
+
+        <TextView
+            android:id="@+id/itemtext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:drawablePadding="10.0dip"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:paddingLeft="17.0dip"
+            android:text="text"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+</LinearLayout>

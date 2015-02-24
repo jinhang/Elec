@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <Button
+            android:id="@+id/btn_back_contract"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_back_presschange"
+            android:text="返回"
+            android:textColor="@color/white"
+           />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_right_presschange"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/texttop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="意见反馈"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+         <Button
+            android:id="@+id/btn_send_contract"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_send_presschange"
+            android:text="发送"
+            android:textColor="@color/white"
+           />
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FDF5E6">
+        <EditText 
+            android:id="@+id/idea"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="10dip"
+            android:gravity="top"
+            android:singleLine="false"
+            android:textSize="10pt"
+            android:paddingLeft="15dp"
+            android:paddingTop="6dp"
+            android:background="@drawable/chatfrom_bg_new_fmessage_normal"/>
+    </LinearLayout>
+</LinearLayout>

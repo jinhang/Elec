@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tv_key_left"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/vip_list_left_three"
+            android:gravity="center"
+            android:text="类别"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/tv_data_middle"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/vip_list_left"
+            android:gravity="center"
+            android:text="计划"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@color/black"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tv_data_right"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/vip_list_right_three"
+            android:gravity="center"
+            android:text="实际"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@color/black"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <Button
+            android:id="@+id/btn_back_contract"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_back_presschange"
+            android:text="返回"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_right_presschange"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/texttop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="关于"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dip"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="陕西电网"
+        android:textColor="#5E5E5E"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="版本   v 1.0"
+        android:textColor="#5E5E5E"
+        android:textSize="7pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="40dip"
+        android:text="国家电网陕西电力公司 ©版本所有"
+        android:textColor="#5E5E5E"
+        android:textSize="7pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="Copyright 2013"
+        android:textColor="#5E5E5E"
+        android:textSize="7pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="All Right Reserved"
+        android:textColor="#5E5E5E"
+        android:textSize="7pt" />
+
+</LinearLayout>

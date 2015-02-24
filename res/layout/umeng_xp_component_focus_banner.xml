@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/umeng_xp_banner"
+    android:layout_width="fill_parent"
+    android:layout_height="55.0dip" >
+
+    <RelativeLayout
+        android:id="@id/umeng_xp_banner_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="67.0dip"
+        android:background="@drawable/umeng_xp_banner_grey" />
+
+    <ImageView
+        android:id="@id/umeng_xp_appIcon0"
+        android:layout_width="35.0dip"
+        android:layout_height="35.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:background="@drawable/pic_description" />
+
+    <TextView
+        android:id="@id/umeng_xp_name0"
+        android:layout_width="180.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_toRightOf="@id/umeng_xp_appIcon0"
+        android:text="标题"
+        android:textColor="#ff000000"
+        android:textSize="14.0dip" />
+
+    <TextView
+        android:id="@id/umeng_xp_content0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_toRightOf="@id/umeng_xp_appIcon0"
+        android:text="2013-1-1"
+        android:textColor="#ff777777"
+        android:textSize="12.0dip" />
+
+    <TextView
+        android:id="@id/umeng_xp_size0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ff777777"
+        android:textSize="12.0dip" />
+
+</RelativeLayout>

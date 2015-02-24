@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_back_presschange"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_right_presschange"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="检修计划"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <com.dome.autoview.AutoScrollView
+            android:id="@+id/auto_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/temp_pic_1" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text=" 国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日
+                    国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日
+                    国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/temp_pic_2" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text=" 国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n      
+                    国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日
+                    国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日
+                    国家电网公司直属单位项目2013年第二批（砂石料工程）  /n中标人名单/n国家电网公司直属单位项目2013年第二批（砂石料工程） 的评标工作已结束，经评标委员会评审并报国家电网公司招标领导小组批准，将招标结果公告如下：/n包1安徽绩溪抽水蓄能电站砂石料加工系统及混凝土生产系统建安及/n运行工程/n中国水利水电第十二工程局有限公司/n/n/n/n/n/n 国家电网公司招投标管理中心/n                             国网物资有限公司         /n                             二O一三年六月二十日                       二O一三年六月二十日" />
+            </LinearLayout>
+        </com.dome.autoview.AutoScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

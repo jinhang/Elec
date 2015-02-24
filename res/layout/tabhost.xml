@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrstest="http://schemas.android.com/apk/res/com.dome.viewer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/elec_title" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:text="首页"
+            android:textSize="25dip" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:paddingBottom="55dip"
+        android:persistentDrawingCache="animation" />
+
+    <RadioGroup
+        android:id="@+id/rg_main_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.dome.viewer.widget.MyRadioButton
+            android:id="@+id/buyHomeTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:background="@drawable/navigation_item"
+            android:checked="true"
+            android:text="@string/home"
+            attrstest:pic="@drawable/icon_home" />
+
+        <com.dome.viewer.widget.MyRadioButton
+            android:id="@+id/winAfficheTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:background="@drawable/navigation_item"
+            android:button="@null"
+            android:text="@string/winAcciche"
+            attrstest:pic="@drawable/icon_goup" />
+
+        <!-- <com.dome.viewer.widget.MyRadioButton
+            android:id="@+id/integralTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="65dip"
+            android:layout_height="50dip"
+            android:background="@drawable/navigation_item"
+            android:text="@string/beanExchange"
+            attrstest:pic="@drawable/icon_rss" /> -->
+
+        <com.dome.viewer.widget.MyRadioButton
+            android:id="@+id/accountTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:background="@drawable/navigation_item"
+            android:text="@string/account"
+            attrstest:pic="@drawable/yhzx" />
+
+        <com.dome.viewer.widget.MyRadioButton
+            android:id="@+id/moreTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:background="@drawable/navigation_item"
+            android:text="@string/more"
+            attrstest:pic="@drawable/btn_setting" />
+    </RadioGroup>
+
+</RelativeLayout>

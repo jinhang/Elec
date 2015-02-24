@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/elec_title" >
+
+                <Button
+                    android:id="@+id/btn_home_left"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/btn_back_presschange"
+                    android:text="@string/btn_return"
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/title_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="通知内容"
+                    android:textColor="@color/white"
+                    android:textSize="20dip" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:gravity="center|left"
+                                android:text="这里是一个title显示的区域，如果超……"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="#000000"
+                                android:textSize="28sp" />
+
+                            <TextView
+                                android:id="@+id/tv_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="16dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:background="#3b8d3f"
+                                android:gravity="right"
+                                android:paddingRight="20dp"
+                                android:text="TextView" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ly_article"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_content"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:text="TextView"
+                                android:textColor="#4b504b"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/ly_attachment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/tv_attachment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="附件:  "
+                                    android:textColor="@color/agreement_color" />
+
+                                <TextView
+                                    android:id="@+id/tv_attname"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="TextView"
+                                    android:textColor="#f77783" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_data"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/input_hint_color"
+                                android:text="TextView" />
+
+                            <LinearLayout
+                                android:id="@+id/ly_publisher"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/publisher" />
+
+                                <TextView
+                                    android:id="@+id/tv_publisher"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="TextView" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ly_checker"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/checker" />
+
+                                <TextView
+                                    android:id="@+id/tv_checker"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="TextView" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/input_hint_color"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    
+
+    </RelativeLayout>
+
+</LinearLayout>

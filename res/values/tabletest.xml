@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+          
+
+
+      <!--   <string name="Contract_Id">合同id</string>
+        <string name="Contract_Type">合同类型</string>
+        <string name="TradeSeq_Id">交易id</string>
+        <string name="Vendee_Unitid">购方竞价单元id</string>
+        <string name="Sale_Unitid">售方竞价单元id</string>
+        <string name="Sale_Settle_Unitid">审售电结算主体编号</string> 
+        <string name="Vendee_Settle_Unitid">购电结算主体编号</string>
+        <string name="TransParticipant_Id">输电方id</string>
+        <string name="Contract_Text">原始合同文本</string>
+        <string name="Is_Validate">合同是否有效</string>
+        <string name="Old_ContractId">原合同编号</string>
+        <string name="Trans_Price">售电输电费</string> 
+        
+        <string name="Trans_Loss">输电网损</string>
+        <string name="Loss_Taker">网损承担方</string>
+        <string name="Update_Time">合同录入时间</string>
+        <string name="TradeType_Id">交易类型id</string>
+        <string name="Modify_Time">合同变更时间</string>
+        <string name="BidTrade_Id">成交编号</string> 
+        
+        <string name="Contract_FileName">原始合同文件名</string>
+        <string name="Contract_Code">合同编码</string>
+        <string name="Contract_Name">合同名称</string>
+        <string name="St_Date">开始时间</string>
+        <string name="End_Date">结束时间</string>
+        <string name="Vendee_Trans_Price">购电方输电价</string> 
+        
+        <string name="sign_place">签订地点</string>
+        <string name="TransParticipant2_Id">输电方2id</string>
+        <string name="TransParticipant3_Id">输电方3id</string> -->
+        
+        
+          
+    <string-array name="tablemodel">  
+        <item>合同id</item>
+        <item>合同类型</item>
+        <item>交易id</item>
+        <item>购方竞价单元id</item>
+        <item>售方竞价单元id</item>
+         <item>售电结算主体编号</item>
+        <item>购电结算主体编号</item>
+        <item>输电方id</item>
+        <item>原始合同文本</item>
+        <item>合同是否有效</item>
+         <item>原合同编号</item>
+        <item>售电输电费</item>
+        <item>输电网损</item>
+        <item>网损承担方</item>
+        <item>合同录入时间</item>
+         <item>交易类型id</item>
+        <item>合同变更时间</item>
+        <item>成交编号</item>
+        <item>原始合同文件名</item>
+        <item>合同编码</item>
+         <item>合同名称</item>
+        <item>开始时间</item>
+        <item>结束时间</item>
+        <item>购电方输电价</item>
+        <item>签订地点</item>
+         <item>输电方2id</item>
+        <item>输电方3id</item>
+      
+    </string-array> 
+    
+      
+       
+        
+    
+
+         
+</resources>
